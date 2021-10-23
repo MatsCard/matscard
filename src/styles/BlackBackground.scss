@@ -1,0 +1,32 @@
+.empty {
+    position: relative;
+    margin: 0 auto;
+    height: 150px;
+    
+}
+
+.empty-container {
+    position: relative;
+    background-color: var(--bs-dark);
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    top: -5rem;
+    border-radius: 10px;
+}
+
+.empty .empty-col {
+    
+    border-right: 2px solid white;
+}
+
+@media screen and (min-width: 767px){
+    
+    .empty-container {
+        height: 300px;
+    }
+
+    .empty {
+        height: 200px;
+    }    
+}

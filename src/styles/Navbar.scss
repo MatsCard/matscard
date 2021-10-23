@@ -1,0 +1,28 @@
+
+.navbar-brand {
+	margin: 1rem 0 1rem 0;
+}
+
+.navbar-collapse {
+    border-top: 1px solid black;
+}
+
+.container-xl {
+    padding: 0;
+}
+
+@media screen and (min-width: 990px) {
+    .navbar-collapse {
+        border: 0 solid black;
+    }
+
+    .navbar {
+        padding: 0 8rem;
+        margin: 1rem 0 1rem 0;
+    }
+    .navbar-brand {
+        height: 34px;
+        margin: 0 2rem 0 0;
+        padding: 0;
+    }
+}

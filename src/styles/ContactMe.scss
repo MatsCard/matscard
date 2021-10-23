@@ -1,0 +1,35 @@
+.contact-me {
+    background-color: var(--bs-dark);
+    margin-top: 5rem;
+}
+
+
+
+.contact-me-img {
+
+    position: relative;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    top: -5rem;
+}
+
+.contact-me-img img{
+
+    max-width: 80%;
+}
+
+@media screen and (min-width: 1023px) {
+.contact-me-img {
+
+    margin: 0 0 0 auto;
+    
+}
+}
+
+@media screen and (min-width: 676px) {
+    .contact-me {
+        margin-top: 11rem;
+    }
+
+}
